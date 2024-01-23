@@ -1,0 +1,16 @@
+.discover-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    width: auto; 
+    margin:10px 20px 10px 14rem;
+    border-radius: 10px;
+    background-color: rgb(31 31 29); 
+    color: beige;
+    border: 1px solid rgb(59 59 59);
+}
+.discover-container.icon-clicked {
+    width: auto; 
+    margin:10px 20px 10px 100px;
+  }

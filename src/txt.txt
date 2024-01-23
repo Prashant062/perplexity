@@ -1,0 +1,47 @@
+.dynamic-textarea-container {
+  margin-top: 43px;
+  width: 45rem;
+  max-height: 220px; /* Set a maximum height */
+  overflow-y: auto; /* Add scrollbar when content exceeds the maximum height */
+  border-radius: 10px;
+  background-color: #292927;
+  border: 1px solid #ccc;
+}
+
+.dynamic-textarea-container textarea {
+  background-color: rgb(41 41 39);
+  border: none;
+  color: bisque;
+  width: 100%; /* Make the textarea take up 100% width of its container */
+  box-sizing: border-box; /* Include padding and border in the width */
+  font-size: 16px;
+  padding: 10px;
+  resize: none;
+  overflow-y: auto; /* Add scrollbar when content exceeds the textarea height */
+}
+
+/* Additional styles for adjusting the container height */
+.dynamic-textarea-container.auto-resize {
+  transition: height 0.3s ease; /* Add smooth transition for height changes */
+}
+
+.dynamic-textarea {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* Adjustments for scrollbar styling (optional) */
+.dynamic-textarea-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dynamic-textarea-container::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.dynamic-textarea-container::-webkit-scrollbar-track {
+  background-color: #999;
+}
